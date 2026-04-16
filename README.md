@@ -8,13 +8,11 @@ This is a beginner-friendly web project that allows users to calculate their **B
 - Interactive and user-friendly interface
 
 ## How to Run
-1. Clone the repository:
-
-```bash
+1. Clone the repository: ```bash
 git clone https://github.com/railykhan/bmi-health-tracker.git
+2. Open the folder and launch index.html in your web browser.
+3. Use the calculator and explore the features!
 
-2.Open the folder and launch index.html in your web browser.
-3.Use the calculator and explore the features!
 
 What I Learned
 ~ Web development using HTML, CSS, and JavaScript
