@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* centralises the BMI calculator and allows stying and adds background image */
+body {
+
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Background image */
+    background-image: url('IMG_E7772.JPG');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+/* this styles the container which holds the BMI calculator and gives it a frosted glass effect */
+.container {
+    padding: 25px;
+    width: 100%;
+    max-width: 420px;
+    border-radius: 15px;
+    text-align: center;
+
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+
+.input-group {
+    margin-bottom: 10px;
+    text-align: left;
+}
+label {
+    margin-bottom: 5px;
+    display: block;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* this styles the button and adds a gradient background and also adds a hover effect to make it more interactive */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #660d0d;
+    background: linear-gradient(45deg, #660d0d, #aa0000);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #701212;
+    transform: scale(1.05); /* this will make the button slightly bigger when the user hovers over it */
+}
+
+button:hover {
+    background-color: #660d0d;
+}
+input, button {
+    transition: all 0.3s ease;
+}
+
+input:focus, button:hover {
+    transform: scale(1.05);
+    outline: none; /* Removes the default focus outline */
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #701212;
+}

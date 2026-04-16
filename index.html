@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Tracker & BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class= "container"> <!-- the container centralises the BMI calculator and allows stying-->
+         <h1>Raheela's BMI Calculator</h1> <!-- this is the title for the BMI calculator -->
+         <div id="language-switcher"> <!-- this is for the language switcher and it allows users to choose German or English -->
+    <label for="language-select">Choose Language: </label>
+    <select id="language-select" onchange="changeLanguage()">
+        <option value="en">English</option>
+        <option value="de">Deutsch</option>
+
+    </select>
+</div>
+
+
+         <div class="input-group"> <!-- this is the input field for the height and weight and it also has exmaples 'placeholders' to show users how to input their data -->
+            <label for ="height">Enter Height below (cm)</label>
+            <input type="number" id="height" placeholder="e.g. 163">
+         </div>
+
+         <div class ="input-group">
+            <label for ="weight">Enter Weight below (kg)</label>
+            <input type="number" id="weight" placeholder="e.g. 60">
+         </div>
+         
+         <button type= "button" onclick="calculateBMI()">Get My BMI</button> <!-- this is the button that users click to calculate their BMI and it also triggers BMI Calculation via JavaScript -->
+        
+         <div class="result"> <!-- this is the section where the BMI result and status will be displayed after calculation and it will be dynaically updated via JavaScript -->
+            <h2 id="bmi-result">Your BMI: --</h2>
+            <p id="bmi-status"></p>
+        </div>
+        
+</div>
+
+    </div>
+
+    <script src="script.js"></script> <!-- this links the JavaScript file to the HTML so that the BMI calculation and language switching functionality can work -->
+</body>
+</html>
+
+
+
+    
+            
+
+
+        
