@@ -14,7 +14,7 @@ git clone https://github.com/railykhan/bmi-health-tracker.git
 3. Use the calculator and explore the features!
 
 
-What I Learned
+## What I Learned
 ~ Web development using HTML, CSS, and JavaScript
 ~ Creating interactive features like a BMI calculator and language switcher
 ~ Structuring a project for usability and maintainability
