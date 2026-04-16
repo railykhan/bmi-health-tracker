@@ -1,4 +1,4 @@
-# BMI & Health Tracker Website
+# BMI Calculator Website
 
 This is a beginner-friendly web project that allows users to calculate their **Body Mass Index (BMI)**. The website also includes a **language switcher** feature, allowing users to switch between English and German.
 
